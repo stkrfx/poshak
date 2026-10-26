@@ -1,0 +1,31 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+build/
+
+# Test artifacts
+*.test
+*.out
+*.coverprofile
+coverage.*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendor (if you don't commit it)
+# vendor/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
